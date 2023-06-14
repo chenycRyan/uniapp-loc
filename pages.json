@@ -1,0 +1,218 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+	
+	
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "掌控乾坤",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/dynamic/dynamic",
+			"style": {
+				"navigationBarTitleText": "最新动态",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "掌控乾坤",
+				"navigationStyle": "custom"
+			}
+
+		},
+
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "掌控乾坤",
+				"navigationStyle": "custom"
+			}
+		},
+		 {
+			"path": "pages/trackReport/trackReport",
+			"style": {
+				"navigationBarTitleText": "在线统计",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/developing/developing",
+			"style": {
+				"navigationBarTitleText": "建设中",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/visit/visit",
+			"style": {
+				"navigationBarTitleText": "拜访分析",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/complete/complete",
+			"style": {
+				"navigationBarTitleText": "完成额度",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/performance/performance",
+			"style": {
+				"navigationBarTitleText": "业绩排名",
+				"enablePullDownRefresh": false
+			}
+		},
+		 {
+			"path": "pages/market/market",
+			"style": {
+				"navigationBarTitleText": "市场占有率",
+				"enablePullDownRefresh": false
+			}
+		},
+		 {
+			"path": "pages/device/device",
+			"style": {
+				"navigationBarTitleText": "设备统计与分析",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/tender/tender",
+			"style": {
+				"navigationBarTitleText": "投标分析",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/employees/employees",
+			"style": {
+				"navigationBarTitleText": "员工情况",
+				"enablePullDownRefresh": false
+			}
+		},
+	   {
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "问题上报",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/conditions/conditions",
+
+			"style": {
+				"navigationBarTitleText": "选择日期范围",
+				"enablePullDownRefresh": false
+
+			}
+		},
+		 {
+			"path": "pages/description/description",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		 {
+			"path": "pages/changePassword/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/newsList/newsList",
+			"style": {
+				"navigationBarTitleText": "消息列表",
+				"enablePullDownRefresh": false
+			}
+		}
+		, 
+		{
+			"path": "pages/manager/manager",
+			"style": {
+				"navigationBarTitleText": "角色分配",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/systemConfig/systemConfig",
+			"style": {
+				"navigationBarTitleText": "系统配置",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/logonLogs/logonLogs",
+			"style": {
+				"navigationBarTitleText": "登录日志",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/attendance/attendance",
+			"style": {
+				"navigationBarTitleText": "考勤统计",
+				"enablePullDownRefresh": false
+			}
+		},
+		 {
+			"path": "pages/duration/duration",
+			"style": {
+				"navigationBarTitleText": "在线时长",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/acitonLogs/acitonLogs",
+			"style": {
+				"navigationBarTitleText": "操作记录",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/attendanceView/attendanceView",
+			"style": {
+				"navigationBarTitleText": "考勤查看",
+				"enablePullDownRefresh": false
+			}
+		}
+	   
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#0F71FF",
+		"borderStyle": "white",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/homeHL.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/userHL.png"
+			}
+		]
+	}
+}
